@@ -21,6 +21,3 @@ lazy val ocelot = (project in file(".")).
 mainClass in assembly := Some("totoro.ocelot.Ocelot")
 test in assembly := {}
 assemblyOutputPath in assembly := file(s"target/ocelot-${version.value}.jar")
-
-// configure resources
-//unmanagedResourceDirectories in Compile += { baseDirectory.value / "assets" }

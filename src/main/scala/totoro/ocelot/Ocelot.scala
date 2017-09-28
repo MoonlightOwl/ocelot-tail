@@ -30,6 +30,7 @@ object Ocelot {
 
     val bindingFuture = Http().bindAndHandle(route, Config.Host, Config.Port)
 
+    println(s"[ ocelot.online v${BuildInfo.version} ]")
     println(s"Server online at http://${Config.Host}:${Config.Port}/\nPress RETURN to stop...")
 
     StdIn.readLine() // let it run until user presses return
