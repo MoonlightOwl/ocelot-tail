@@ -22,4 +22,4 @@ $ cd ocelot-tail
 $ sbt assembly
 ```
 
-All files necessary to run Ocelot server will be zipped to `./target/ocelot-x.x.x.tgz`
+All files necessary to run Ocelot server will be zipped to `./target/ocelot-x.x.x.jar`
