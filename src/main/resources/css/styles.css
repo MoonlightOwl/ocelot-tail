@@ -1,0 +1,54 @@
+body {
+  background-image: url("../images/skulls.png");
+  background-repeat: repeat;
+}
+
+@font-face {
+  font-family: "unscii";
+  src: url("../fonts/unscii-16.woff") format('woff');
+}
+
+.splash {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.titlebar {
+  font-family: "unscii", monospace;
+  font-size: 14pt;
+  color: #333;
+}
+.title {
+  display: inline-block;
+  cursor: pointer;
+}
+.logo {
+  width: 85px;
+  height: 77px;
+  padding: 0 100px 0 100px;
+}
+.profile-panel {
+  display: inline-block;
+}
+.button {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.terminal {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.8);
+}
+.terminal pre {
+  font-family: 'unscii', monospace;
+  font-size: 12pt;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
