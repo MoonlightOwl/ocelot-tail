@@ -1,12 +1,13 @@
 /* project signature */
 name := "ocelot-tail"
-version := "0.1.0"
+version := "0.1.1"
 
 /* language and dependencies */
 scalaVersion := "2.12.3"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http" % "10.0.10",
+  "com.typesafe" % "config" % "1.3.1"
 )
 
 /* make project name and version accessible from source code */
