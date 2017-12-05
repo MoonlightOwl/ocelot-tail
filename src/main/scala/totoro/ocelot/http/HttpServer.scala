@@ -41,7 +41,7 @@ class HttpServer(implicit val system: ActorSystem, implicit val materializer: Ac
   }
   val bindingFuture: Future[Http.ServerBinding] = Http().bindAndHandle(route, Config.Host, Config.Port)
 
-  println(s"Server online at http://${Config.Host}:${Config.Port}/\nPress RETURN to stop...")
+  println(s"Server online at http://${Config.Host}:${Config.Port}/")
 
   def stop(): Future[Unit] = {
     // trigger unbinding from the port

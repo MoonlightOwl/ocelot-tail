@@ -23,6 +23,7 @@ object Ocelot {
     val httpServer = new HttpServer()
 
     // let it run until user presses return
+    println("Press RETURN to stop...")
     StdIn.readLine()
 
     // stop everything
