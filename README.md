@@ -1,3 +1,10 @@
+## :yellow_circle: :yellow_circle: :yellow_circle:
+This repository is outdated. You can find latest Ocelot versions
+([core](https://gitlab.com/cc-ru/ocelot/ocelot-brain),
+[online](https://gitlab.com/cc-ru/ocelot/ocelot-online)
+and [desktop](https://gitlab.com/cc-ru/ocelot/ocelot-desktop)) here:  
+https://gitlab.com/cc-ru/ocelot
+
 # { Ocelot.Online }
 Ocelot is an Opencomputers emulator in your browser.
 
